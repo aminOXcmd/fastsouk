@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>المتجر الخليجي</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial; background: #f5f5f5; margin:0; padding:0; }
+    header { background:black; color:white; padding:15px; text-align:center; }
+    .container { padding:20px; display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+    .card { background:white; border-radius:12px; overflow:hidden; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+    .card img { width:100%; height:200px; object-fit:cover; }
+    .card .content { padding:15px; text-align:center; }
+    .price { font-weight:bold; margin:10px 0; }
+    button { background:black; color:white; border:none; padding:10px; width:100%; border-radius:8px; cursor:pointer; }
+    footer { text-align:center; padding:15px; color:#777; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>المتجر الخليجي</h1>
+  <p>الدفع عند الاستلام – منتجات حلال 100%</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f">
+    <div class="content">
+      <h3>عطر العود الفاخر</h3>
+      <p class="price">450 درهم</p>
+      <button>اطلب الآن</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990">
+    <div class="content">
+      <h3>عباية خليجية</h3>
+      <p class="price">380 درهم</p>
+      <button>اطلب الآن</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d">
+    <div class="content">
+      <h3>ثوب رجالي</h3>
+      <p class="price">420 درهم</p>
+      <button>اطلب الآن</button>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 المتجر الخليجي
+</footer>
+
+</body>
+</html>
